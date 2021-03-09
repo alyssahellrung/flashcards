@@ -87,5 +87,45 @@ const questions = [
     "question": "December",
     "answer": "decembre" 
   },
+  {
+    "question": "the seasons",
+    "answer": "les saisons" 
+  },
+  {
+    "question": "Summer",
+    "answer": "l'ete'" 
+  },
+  {
+    "question": "Fall",
+    "answer": "l'automne" 
+  },
+  {
+    "question": "Winter",
+    "answer": "l'hiver" 
+  },
+  {
+    "question": "Spring",
+    "answer": "le printemps" 
+  },
+  {
+    "question": "directions",
+    "answer": "les directions" 
+  },
+  {
+    "question": "North",
+    "answer": "le nord" 
+  },
+  {
+    "question": "South",
+    "answer": "le sud" 
+  },
+  {
+    "question": "East",
+    "answer": "l'est" 
+  },
+  {
+    "question": "West",
+    "answer": "l'ouest" 
+  },
   
 ]
