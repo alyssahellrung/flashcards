@@ -127,5 +127,32 @@ const questions = [
     "question": "West",
     "answer": "l'ouest" 
   },
-  
+  {
+    "question": "beach",
+    "answer": "la plage" 
+  },
+  {
+    "question": "lake",
+    "answer": "le lac" 
+  },
+  {
+    "question": "ocean",
+    "answer": "l'ocean" 
+  },
+  {
+    "question": "pool",
+    "answer": "la piscine" 
+  },
+  {
+    "question": "sea",
+    "answer": "la mer" 
+  },
+  {
+    "question": "water",
+    "answer": "l'eau" 
+  },
+  {
+    "question": "river",
+    "answer": "la riviere" 
+  }
 ]
