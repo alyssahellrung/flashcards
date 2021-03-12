@@ -1,7 +1,7 @@
 const card = document.querySelector(".card__inner");
 const questionEl = document.getElementById("question")
 const answerEl = document.getElementById("answer");
-const button = document.getElementById("nextCard");
+const button = document.querySelector(".next-card");
 
 function shuffleArray(array) {
   for (let i = array.length - 1; i > 0; i--) {

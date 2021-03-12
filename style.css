@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 :root {
-  --primary: #FFCE00;
-  --secondary: #FE4880;
+  --mathPrimary: #FFCE00;
+  --mathSecondary: #FE4880;
+  --geographyPrimary: #19FFEB;
+  --geographySecondary: #CC14B7;
+  --frenchPrimary: #CC14B7;
+  --frenchSecondary: #FFCE00;
   --dark: #212121;
   --light: #F3F3F3;
 }
@@ -14,7 +18,7 @@
 }
 
 body {
-  font-family: montserrat, sans-serif;
+  font-family: "Montserrat", sans-serif;
   width: 100%;
   min-height: 100vh;
 }
@@ -73,10 +77,21 @@ body {
 }
 
 .card__face--front {
-  background-image: linear-gradient(to bottom right, var(--primary), var(--secondary));
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+#math-color-front {
+  background-image: linear-gradient(to bottom right, var(--mathPrimary), var(--mathSecondary));
+}
+
+#geog-color-front {
+  background-image: linear-gradient(to bottom right, var(--geographyPrimary), var(--geographySecondary));
+}
+
+#french-color-front {
+  background-image: linear-gradient(to bottom right, var(--frenchPrimary), var(--frenchSecondary));
 }
 
 .card__face--front h2 {
@@ -93,15 +108,26 @@ body {
   align-items: center;
 }
 
-#nextCard {
+.next-card {
   cursor: pointer;
-  background-image: linear-gradient(to bottom left, var(--primary) 10%, var(--secondary) 115%);
   color: var(--light);
   border: 0;
   margin: 180px auto;
   display: block;
   padding: 12px 20px;
   font-size: 16px;
+}
+
+#math-next-card {
+  background-image: linear-gradient(to bottom left, var(--mathPrimary) 10%, var(--mathSecondary) 115%);
+}
+
+#geog-next-card {
+  background-image: linear-gradient(to bottom left, var(--geographyPrimary) 10%, var(--geographySecondary) 115%);
+}
+
+#french-next-card {
+  background-image: linear-gradient(to bottom left, var(--frenchPrimary) 10%, var(--frenchSecondary) 115%);
 }
 
 .card__content {
@@ -122,9 +148,20 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background-image: linear-gradient(to bottom left, var(--primary) 10%, var(--secondary) 115%);
   z-index: -1;
   border-radius: 0px 0px 50% 0px;
+}
+
+#math-color-back {
+  background-image: linear-gradient(to bottom left, var(--mathPrimary) 10%, var(--mathSecondary) 115%);
+}
+
+#geog-color-back {
+  background-image: linear-gradient(to bottom left, var(--geographyPrimary) 10%, var(--geographySecondary) 115%);
+}
+
+#french-color-back {
+  background-image: linear-gradient(to bottom left, var(--frenchPrimary) 10%, var(--frenchSecondary) 115%);
 }
 
 .card__header h2 {
@@ -156,7 +193,7 @@ body {
 
 .button {
   cursor: pointer;
-  background-color: #9c88ff;
+  background-color: #FE4880;
   box-shadow: var(--box-shadow);
   color: #ffffff;
   border: 0;
