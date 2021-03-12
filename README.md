@@ -47,6 +47,5 @@ https://alyssahellrung.github.io/flashcards
 ## Link to GitHub Repo      
 https://github.com/alyssahellrung/flashcards
 
-## Future Development Ideas     
---Change the card colors to be deck-specific. Currently, all of the cards are the same no matter what deck the user is on, but I'd like each deck to be slightly different in appearance for variety.  
+## Future Development Ideas       
 --Improve appearance on very small screens (not very responsive yet on tiny phones).
