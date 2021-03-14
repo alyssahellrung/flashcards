@@ -37,7 +37,7 @@ const questions = [
   },
   {
     "question": "year",
-    "answer": "l'annee" 
+    "answer": "l'ann\u00E9e" 
   },
   {
     "question": "January",
@@ -45,7 +45,7 @@ const questions = [
   },
   {
     "question": "February",
-    "answer": "fevrier" 
+    "answer": "f\u00E9vrier" 
   },
   {
     "question": "March",
@@ -69,7 +69,7 @@ const questions = [
   },
   {
     "question": "August",
-    "answer": "aout" 
+    "answer": "ao\u00FBt" 
   },
   {
     "question": "September",
@@ -85,7 +85,7 @@ const questions = [
   },
   {
     "question": "December",
-    "answer": "decembre" 
+    "answer": "d\u00E9cembre" 
   },
   {
     "question": "the seasons",
@@ -93,7 +93,7 @@ const questions = [
   },
   {
     "question": "Summer",
-    "answer": "l'ete'" 
+    "answer": "l'\u00E9t\u00E9" 
   },
   {
     "question": "Fall",
@@ -137,7 +137,7 @@ const questions = [
   },
   {
     "question": "ocean",
-    "answer": "l'ocean" 
+    "answer": "l'oc\u00E9an" 
   },
   {
     "question": "pool",
@@ -153,6 +153,6 @@ const questions = [
   },
   {
     "question": "river",
-    "answer": "la riviere" 
+    "answer": "la rivi\u00E8re" 
   }
 ]
